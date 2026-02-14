@@ -16,6 +16,14 @@ body, html {
     border-radius: 50%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), inset -10px -10px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .ball:hover {

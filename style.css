@@ -1,0 +1,24 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    font-family: sans-serif;
+}
+
+.ball {
+    width: 150px;
+    height: 150px;
+    background-color: #2ecc71;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), inset -10px -10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.ball:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
